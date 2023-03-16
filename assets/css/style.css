@@ -1,0 +1,137 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* navbar */
+
+.navbar {
+  box-shadow: var(box-shadow);
+}
+
+.navbar-nav .nav-link {
+  font-weight: 500;
+  color: black;
+}
+
+/* Btn */
+.btn {
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-radius: 0;
+  padding: 10px 24px;
+}
+
+.btn-brand {
+  background-color: var(--c-brand);
+  border-color: var(--c-brand);
+  color: white;
+}
+
+.btn-brand:hover {
+  background-color: var(--c-brand-light);
+  border-color: var(--c-brand-light);
+  color: white;
+}
+
+/* Main */
+.main-wrap {
+  background-image: url('https://cdn-bjnik.nitrocdn.com/kLHpQKaZmrqFqwiGDWRQRlhwZUtZLGyP/assets/images/optimized/rev-321ab86/wp-content/uploads/home-topfold-blur.png'),
+    url(https://cdn-bjnik.nitrocdn.com/kLHpQKaZmrqFqwiGDWRQRlhwZUtZLGyP/assets/images/optimized/rev-321ab86/wp-content/uploads/hero-image-06-08-2022.jpg);
+  background-size: cover;
+  background-position: bottom center, center;
+  padding: 100px 0px 50px;
+  color: #fff;
+  height: 60vh;
+}
+
+.section-1 .panel-wrap h3 {
+  min-height: 70px;
+  font-size: 27px;
+  font-weight: bold;
+}
+
+/* p {
+  margin: 0 0 20px;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+} */
+
+.col-lg-10,
+.col-lg-4,
+.col-lg-5,
+.col-lg-7,
+.col-md-6 {
+  position: relative;
+  width: 100%;
+}
+
+.panel-1 {
+  background-color: orangered;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.panel-2 {
+  background-color: purple;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.panel-3 {
+  background-color: green;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+
+.section-3 .platforms ul {
+  list-style: none;
+  display: flex;
+}
+
+section.section-5 {
+  margin: 3vw 0px;
+}
+
+.portfolio-masonry .card .site-info .logo img {
+  width: auto;
+  max-height: 50px;
+}
+
+.card-text:last-child {
+  margin-bottom: 0;
+}
+
+.card-text:last-child {
+  margin-bottom: 0;
+}
+p .card-text {
+  color: #fff !important;
+}
+
+.hide {
+  display: none;
+}
+
+.hide + .myDIV:hover {
+  display: block;
+  color: red;
+}
